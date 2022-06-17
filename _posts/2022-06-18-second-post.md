@@ -10,6 +10,13 @@ tags:
 toc: true
 toc_sticky: true
 
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+    label: "comment" # Optional - must be existing label.
+
 date: 2022-06-18
 last_modified_at: 2022-06-18
 ---
