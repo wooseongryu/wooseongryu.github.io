@@ -21,7 +21,7 @@ locale                   : "en-US"
 title                    : "개발 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "우성"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -144,6 +144,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
+      url: "https://github.com/wooseongryu"
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
