@@ -1,11 +1,7 @@
 ---
 title: "Java"
-layout: archive
-permalink: categories/Java
+permalink: /categories/Java/
+layout: category
 author_profile: true
-sidebar_main: true
+taxonomy: Java
 ---
-
-
-{% assign posts = site.categories.Java %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
