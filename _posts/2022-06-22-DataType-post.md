@@ -73,6 +73,6 @@ public class MemberDTO{
 ```
 |종류|자료형|예시|
 |-|-|-|
-|회원|MemberDTO|MemberDTO a = "철수"; &nbsp;&nbsp;MemberDTO b = "서울"; &nbsp;&nbsp;MemberDTO c = 20;
+|회원|MemberDTO|MemberDTO a = "철수"; &nbsp;&nbsp;MemberDTO b = "서울"; &nbsp;&nbsp;MemberDTO c = 20;|
 
 
