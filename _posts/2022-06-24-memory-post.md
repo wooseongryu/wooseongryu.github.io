@@ -51,22 +51,23 @@ last_modified_at: 2022-06-24
  Memory 클래스를 찾아 static이 있는 메서드(main 과 sum)를 메서드 영역에 로딩한다.  
  main을 실행하면 a, b, c변수가 스택 영역에 들어가고 sum을 실행한다.  
  sum의 x, y변수가 스택 영역에 들어가고 값을 리턴후에 스택 영역에서 사라진다.  
- 다시 main으로 돌아와서 리턴 값을 출력후 스택 영역에서 사라지고 프로그램이 종료된다.
- # static이 없는 메서드
- ```java
- public class Memory {
-    public static void main(String[] args) {
-        int a = 1;
-        int b = 2;
-        Memory z = new Memory();
-        int c = z.sum(a, b);
-        System.out.println(c);
-    }
-    public int sum(int x, int y) {
-        return x + y;
-    }
- }
- ```
+ 다시 main으로 돌아와서 리턴 값을 출력후 스택 영역에서 사라지고 프로그램이 종료된다.  
+ 
+# static이 없는 메서드
+```java
+public class Memory {
+   public static void main(String[] args) {
+       int a = 1;
+       int b = 2;
+       Memory z = new Memory();
+       int c = z.sum(a, b);
+       System.out.println(c);
+   }
+   public int sum(int x, int y) {
+       return x + y;
+   }
+}
+```
  static이 있는 main메서드는 메서드 영역에 자동으로 로딩이 되지만,  
  sum메서드는 로딩이 되지 않는다.  
  sum메서드를 사용하기 위해선 로딩을 시켜줘야 하는데,  
