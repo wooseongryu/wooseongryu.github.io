@@ -35,6 +35,7 @@ last_modified_at: 2022-06-24
  - 실행이 끝난 메서드는 스택에서 사라진다.  
 
  4. 스택 영역이 비었으면 프로그램이 종료된 것이다.  
+
  ```java
  public class Memory {
     public static void main(String[] args) {
@@ -52,7 +53,7 @@ last_modified_at: 2022-06-24
  main을 실행하면 a, b, c변수가 스택 영역에 들어가고 sum을 실행한다.  
  sum의 x, y변수가 스택 영역에 들어가고 값을 리턴후에 스택 영역에서 사라진다.  
  다시 main으로 돌아와서 리턴 값을 출력후 스택 영역에서 사라지고 프로그램이 종료된다.  
- 
+
 # static이 없는 메서드
 ```java
 public class Memory {
