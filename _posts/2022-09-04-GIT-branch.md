@@ -18,7 +18,7 @@ comments:
     label: "comment" # Optional - must be existing label.
 
 date: 2022-09-04
-last_modified_at: 2022-09-04
+last_modified_at: 2022-10-05
 ---
 # branch
 하나의 코드 관리 흐름을 말한다.    
@@ -79,7 +79,8 @@ git reset대신 git revert를 쓰는 이유는 리셋을 하면 로컬 레포지
 
 ## 여러 커밋 취소하기
 git revert 커밋아이디1..커밋아이디2  
-커밋아이디1 다음부터 커밋아이디2까지를 되돌린다.  
+a, b, c, d, e 순서대로의 커밋이 있고 현재 e커밋일 때  
+c커밋으로 되돌리고 싶다면 git revert c..e 이렇게 입력한다.  
 
 # git reflog
 깃 리셋을 한다고 그 이후의 커밋들이 사라지는 건 아니다.  
