@@ -20,6 +20,9 @@
           width:12px;height:12px;background:transparent;
       } 
     </style>
+    {% if page.use_math %}
+      {% include mathjax_support.html %}
+    {% endif %}
     {% include head.html %}
     {% include head/custom.html %}
   </head>
