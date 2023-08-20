@@ -1,11 +1,11 @@
 ---
-title: "request, response"
+title: "Java Web2 - request, response"
 excerpt: "request, response, redirect, forward"
 
 categories:
-    - JSP
+    - Java Web
 tags:
-    - [JSP]
+    - [Java Web]
 
 toc: true
 toc_sticky: true

@@ -1,11 +1,11 @@
 ---
-title: "action tag"
+title: "Java Web5 - action tag"
 excerpt: "forward, include"
 
 categories:
-    - JSP
+    - Java Web
 tags:
-    - [JSP]
+    - [Java Web]
 
 toc: true
 toc_sticky: true

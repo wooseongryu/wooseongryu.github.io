@@ -1,11 +1,11 @@
 ---
-title: "session"
+title: "Java Web3 - session"
 excerpt: "세션, 유지/제거 조건, 생성, 삭제"
 
 categories:
-    - JSP
+    - Java Web
 tags:
-    - [JSP]
+    - [Java Web]
 
 toc: true
 toc_sticky: true
